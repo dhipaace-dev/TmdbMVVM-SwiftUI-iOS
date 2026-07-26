@@ -50,5 +50,14 @@ struct MovieDetailsView: View {
         .task {
             viewModel.start()
         }
+        .overlay(content: {
+            Group {
+                if viewModel.isLoading {
+                    ProgressView("Loading...")
+                } else if let error = viewModel.errorMessage {
+                    Text("Error: \(error)").foregroundColor(.red)
+                }
+            }
+        })
     }
 }
