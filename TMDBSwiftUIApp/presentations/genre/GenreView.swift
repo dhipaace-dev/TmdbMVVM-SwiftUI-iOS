@@ -8,18 +8,33 @@
 import SwiftUI
 
 struct GenreView: View {
-    @StateObject private var viewModel = GenreViewModel()
+    @StateObject private var viewModel: GenreViewModel
     @EnvironmentObject var router: Router
+    
+    init(viewModel: GenreViewModel) {
+        _viewModel = StateObject(wrappedValue: viewModel)
+    }
     
     var body: some View {
         List(viewModel.genres) { genre in
-            Button(genre.name) {
-                router.push(.moviesByGenre(genre.id))
-            }
+            Text(genre.name)
+                .bold()
+                .padding()
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .contentShape(Rectangle())
+                .overlay(
+                    RoundedRectangle(cornerRadius: 8)
+                        .stroke(.black, lineWidth: 1)
+                )
+                .onTapGesture {
+                    router.push(.moviesByGenre(genre.id))
+                }
         }
+        .scrollContentBackground(.hidden)
+        .background(.clear)
         .navigationTitle("Genres")
         .task {
-            await viewModel.loadGenres()
+            viewModel.start()
         }
     }
 }

@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9F9BAB693015E27600FDAF27 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9BAB683015E27600FDAF27 /* Kingfisher */; };
+		9F9BAB6C3016100700FDAF27 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9BAB6B3016100700FDAF27 /* YouTubePlayerKit */; };
+		9FD2070C3015A0030020DDBB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9FD2070B3015A0030020DDBB /* Alamofire */; };
+		9FD207663015B0700020DDBB /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 9FD207653015B0700020DDBB /* SwiftyJSON */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9F66A2482FFCE6EF006F4ED7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9BAB693015E27600FDAF27 /* Kingfisher in Frameworks */,
+				9FD207663015B0700020DDBB /* SwiftyJSON in Frameworks */,
+				9F9BAB6C3016100700FDAF27 /* YouTubePlayerKit in Frameworks */,
+				9FD2070C3015A0030020DDBB /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +123,10 @@
 			);
 			name = TMDBSwiftUIApp;
 			packageProductDependencies = (
+				9FD2070B3015A0030020DDBB /* Alamofire */,
+				9FD207653015B0700020DDBB /* SwiftyJSON */,
+				9F9BAB683015E27600FDAF27 /* Kingfisher */,
+				9F9BAB6B3016100700FDAF27 /* YouTubePlayerKit */,
 			);
 			productName = TMDBSwiftUIApp;
 			productReference = 9F66A23A2FFCE6ED006F4ED7 /* TMDBSwiftUIApp.app */;
@@ -195,6 +210,12 @@
 			);
 			mainGroup = 9F66A2312FFCE6ED006F4ED7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9FD2070A3015A0030020DDBB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9FD207643015B0700020DDBB /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				9F9BAB673015E27600FDAF27 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				9F9BAB6A3016100700FDAF27 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9F66A23B2FFCE6ED006F4ED7 /* Products */;
 			projectDirPath = "";
@@ -550,6 +571,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F9BAB673015E27600FDAF27 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.11.0;
+			};
+		};
+		9F9BAB6A3016100700FDAF27 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.5;
+			};
+		};
+		9FD2070A3015A0030020DDBB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.0;
+			};
+		};
+		9FD207643015B0700020DDBB /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F9BAB683015E27600FDAF27 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F9BAB673015E27600FDAF27 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		9F9BAB6B3016100700FDAF27 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F9BAB6A3016100700FDAF27 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+		9FD2070B3015A0030020DDBB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FD2070A3015A0030020DDBB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9FD207653015B0700020DDBB /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FD207643015B0700020DDBB /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F66A2322FFCE6ED006F4ED7 /* Project object */;
 }

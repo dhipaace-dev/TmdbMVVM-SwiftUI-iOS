@@ -6,24 +6,50 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct MoviesByGenreView: View {
     @StateObject private var viewModel: MoviesByGenreViewModel
     @EnvironmentObject var router: Router
     
-    init(genreID: Int) {
-        _viewModel = StateObject(wrappedValue: MoviesByGenreViewModel(genreID: genreID))
+    init(viewModel: MoviesByGenreViewModel) {
+        _viewModel = StateObject(wrappedValue: viewModel)
     }
     
     var body: some View {
         List(viewModel.movies) { movie in
-            Button(movie.title) {
+            HStack {
+                KFImage(URL(string: movie.imageUrl))
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 100, height: 150)
+                    .clipped()
+                
+                VStack {
+                    Text(movie.title)
+                        .bold()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Text(movie.overview)
+                        .lineLimit(5)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Spacer()
+                }
+                
+            }
+            .onTapGesture {
                 router.push(.movieDetails(movie.id))
             }
+            .onAppear {
+                viewModel.loadMoreMoviesIfNeeded(currentMovie: movie)
+            }
         }
+        .scrollContentBackground(.hidden)
+        .background(.clear)
         .navigationTitle("Movies")
         .task {
-            await viewModel.loadMovies()
+            viewModel.start()
         }
     }
 }
