@@ -10,7 +10,7 @@ import Kingfisher
 
 struct MoviesByGenreView: View {
     @StateObject private var viewModel: MoviesByGenreViewModel
-    @EnvironmentObject var router: Router
+    @EnvironmentObject var navigationService: NavigationService
     
     init(viewModel: MoviesByGenreViewModel) {
         _viewModel = StateObject(wrappedValue: viewModel)
@@ -39,7 +39,7 @@ struct MoviesByGenreView: View {
                 
             }
             .onTapGesture {
-                router.push(.movieDetails(movie.id))
+                navigationService.navigateToMovieDetail(movieId: movie.id)
             }
             .onAppear {
                 viewModel.loadMoreMoviesIfNeeded(currentMovie: movie)

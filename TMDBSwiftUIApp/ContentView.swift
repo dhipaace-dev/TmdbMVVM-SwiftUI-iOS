@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var router = Router()
+    @StateObject private var navigationService = NavigationService()
     
     private let apiClient: ApiClient
     private let appDataSource: AppDataSource
@@ -62,7 +62,7 @@ struct ContentView: View {
                 showSplash = false
             }
         } else {
-            NavigationStack(path: $router.path) {
+            NavigationStack(path: $navigationService.path) {
                 GenreView(viewModel: genreViewModel)
                     .navigationDestination(for: AppScreen.self) { screen in
                         switch screen {
@@ -93,7 +93,7 @@ struct ContentView: View {
                         }
                     }
             }
-            .environmentObject(router)
+            .environmentObject(navigationService)
         }
     }
 }

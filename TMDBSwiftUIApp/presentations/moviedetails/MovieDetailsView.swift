@@ -11,7 +11,7 @@ import Kingfisher
 struct MovieDetailsView: View {
     let movieId: Int
     @StateObject private var viewModel: MovieDetailsViewModel
-    @EnvironmentObject var router: Router
+    @EnvironmentObject var navigationService: NavigationService
     
     init(movieId: Int, viewModel: MovieDetailsViewModel) {
         self.movieId = movieId
@@ -37,11 +37,11 @@ struct MovieDetailsView: View {
                 Spacer()
                 
                 Button("Show Reviews") {
-                    router.push(.movieReviews(movieId))
+                    navigationService.navigateToMovieReview(movieId: movieId, movieTitle: viewModel.movie?.title ?? "")
                 }
                 
                 Button("Show Trailer") {
-                    router.push(.movieTrailer(movieId))
+                    navigationService.navigateToMovieTrailer(movieId: movieId)
                 }
             }
             .padding()

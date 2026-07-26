@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GenreView: View {
     @StateObject private var viewModel: GenreViewModel
-    @EnvironmentObject var router: Router
+    @EnvironmentObject var navigationService: NavigationService
     
     init(viewModel: GenreViewModel) {
         _viewModel = StateObject(wrappedValue: viewModel)
@@ -27,7 +27,7 @@ struct GenreView: View {
                         .stroke(.black, lineWidth: 1)
                 )
                 .onTapGesture {
-                    router.push(.moviesByGenre(genre.id))
+                    navigationService.navigateToMovieByGenre(genreId: genre.id, genreName: genre.name)
                 }
         }
         .scrollContentBackground(.hidden)
