@@ -1,13 +1,13 @@
 //
-//  TMDBSwiftUIAppUITestsLaunchTests.swift
-//  TMDBSwiftUIAppUITests
+//  TmdbMVVMSwiftUIAppUITestsLaunchTests.swift
+//  TmdbMVVMSwiftUIAppUITests
 //
 //  Created by JAVARENT on 07/07/26.
 //
 
 import XCTest
 
-final class TMDBSwiftUIAppUITestsLaunchTests: XCTestCase {
+final class TmdbMVVMSwiftUIAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
