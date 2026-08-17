@@ -35,6 +35,8 @@ final class MoviesByGenreViewModel: ObservableObject {
     }
     
     private func fetchMoviesGenre() {
+        guard !isLoading else { return }
+        
         isLoading = true
         errorMessage = nil
         
