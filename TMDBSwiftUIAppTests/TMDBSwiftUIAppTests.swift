@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import TmdbMVVMSwiftUIApp
+@testable import TmdbMVVM_SwiftUI
 
 final class TmdbMVVMSwiftUIAppTests: XCTestCase {
 
