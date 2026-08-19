@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum AppError: Error {
+public enum AppError: Error, Equatable {
     case networkError(message: String)
 }
 
