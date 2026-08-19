@@ -40,8 +40,14 @@ final class MockAppRepository: AppRepository {
     
     var movieResult: Result<DiscoverMovieByGenreModel, AppError>!
     
+    var receivedGenreId: String!
+    var receivedPage: Int!
+    
     func fetchMovieByGenre(genreId: String, page: Int) -> AnyPublisher<DiscoverMovieByGenreModel, AppError> {
         movieCallCount += 1
+        
+        receivedGenreId = genreId
+        receivedPage = page
         
         switch movieResult {
         case .success(let model):
