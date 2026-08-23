@@ -13,9 +13,9 @@ struct SpokenLanguageDto: Codable {
     let englishName: String?
 
     init(
-        iso6391: String?,
-        name: String?,
-        englishName: String?
+        iso6391: String? = nil,
+        name: String? = nil,
+        englishName: String? = nil
     ) {
         self.iso6391 = iso6391
         self.name = name

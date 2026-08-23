@@ -11,7 +11,7 @@ import Foundation
 public struct GenreResponse: Decodable {
     let genres: [GenreDto]?
 
-    init(genres: [GenreDto]?) {
+    init(genres: [GenreDto]? = nil) {
         self.genres = genres
     }
     

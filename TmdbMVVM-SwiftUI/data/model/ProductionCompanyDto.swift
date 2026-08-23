@@ -14,10 +14,10 @@ struct ProductionCompanyDto: Codable {
     let id: Int?
 
     init(
-        name: String?,
-        originCountry: String?,
-        logoPath: String?,
-        id: Int?
+        name: String? = nil,
+        originCountry: String? = nil,
+        logoPath: String? = nil,
+        id: Int? = nil
     ) {
         self.name = name
         self.originCountry = originCountry

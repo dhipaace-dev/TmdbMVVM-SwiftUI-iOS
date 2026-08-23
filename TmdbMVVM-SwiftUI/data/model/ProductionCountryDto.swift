@@ -12,8 +12,8 @@ struct ProductionCountryDto: Codable {
     let name: String?
 
     init(
-        iso31661: String?,
-        name: String?
+        iso31661: String? = nil,
+        name: String? = nil
     ) {
         self.iso31661 = iso31661
         self.name = name

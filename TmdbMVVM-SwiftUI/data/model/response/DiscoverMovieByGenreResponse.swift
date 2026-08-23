@@ -15,10 +15,10 @@ public struct DiscoverMovieByGenreResponse: Decodable {
     let totalResults: Int?
 
     init(
-        page: Int?,
-        results: [MovieDto]?,
-        totalPages: Int?,
-        totalResults: Int?
+        page: Int? = nil,
+        results: [MovieDto]? = nil,
+        totalPages: Int? = nil,
+        totalResults: Int? = nil
     ) {
         self.page = page
         self.results = results

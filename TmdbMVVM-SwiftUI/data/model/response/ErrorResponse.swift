@@ -12,7 +12,7 @@ public struct ErrorResponse: Decodable {
     let statusCode: Int?
     public let statusMessage: String?
 
-    init(success: Bool?, statusCode: Int?, statusMessage: String?) {
+    init(success: Bool? = nil, statusCode: Int? = nil, statusMessage: String? = nil) {
         self.success = success
         self.statusCode = statusCode
         self.statusMessage = statusMessage
