@@ -60,6 +60,9 @@ final class MockAppDataSource: AppDataSource {
     func fetchMovieByGenre(genreId: String, page: Int) -> AnyPublisher<DiscoverMovieByGenreResponse, AppError> {
         movieCallCount += 1
         
+        receivedGenreId = genreId
+        receivedPage = page
+        
         switch movieResult {
         case .success(let response):
             return Just(response)

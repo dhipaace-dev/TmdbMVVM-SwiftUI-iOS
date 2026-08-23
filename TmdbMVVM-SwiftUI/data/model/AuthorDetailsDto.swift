@@ -14,10 +14,10 @@ struct AuthorDetailsDto: Decodable {
     let rating: Float?
 
     init(
-        name: String?,
-        username: String?,
-        avatarPath: String?,
-        rating: Float?
+        name: String? = nil,
+        username: String? = nil,
+        avatarPath: String? = nil,
+        rating: Float? = nil
     ) {
         self.name = name
         self.username = username

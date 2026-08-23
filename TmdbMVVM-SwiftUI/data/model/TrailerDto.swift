@@ -18,14 +18,14 @@ struct TrailerDto: Codable {
     let type: String?
 
     init(
-        id: String?,
-        iso6391: String?,
-        iso31661: String?,
-        key: String?,
-        name: String?,
-        site: String?,
-        size: Int?,
-        type: String?
+        id: String? = nil,
+        iso6391: String? = nil,
+        iso31661: String? = nil,
+        key: String? = nil,
+        name: String? = nil,
+        site: String? = nil,
+        size: Int? = nil,
+        type: String? = nil
     ) {
         self.id = id
         self.iso6391 = iso6391

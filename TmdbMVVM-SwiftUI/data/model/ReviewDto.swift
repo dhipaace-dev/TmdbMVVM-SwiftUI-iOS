@@ -17,13 +17,13 @@ struct ReviewDto: Identifiable, Decodable {
     let url: String?
 
     init(
-        author: String?,
-        authorDetails: AuthorDetailsDto?,
-        content: String?,
-        createdAt: String/*Date?*/,
-        id: String?,
-        updatedAt: String/*Date?*/,
-        url: String?
+        author: String? = nil,
+        authorDetails: AuthorDetailsDto? = nil,
+        content: String? = nil,
+        createdAt: String?/*Date?*/ = nil,
+        id: String? = nil,
+        updatedAt: String?/*Date?*/ = nil,
+        url: String? = nil
     ) {
         self.author = author
         self.authorDetails = authorDetails

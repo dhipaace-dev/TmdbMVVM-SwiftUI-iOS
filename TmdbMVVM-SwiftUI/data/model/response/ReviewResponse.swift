@@ -16,11 +16,11 @@ public struct ReviewResponse: Decodable {
     let totalResults: Int?
 
     init(
-        id: Int?,
-        page: Int?,
-        results: [ReviewDto]?,
-        totalPages: Int?,
-        totalResults: Int?
+        id: Int? = nil,
+        page: Int? = nil,
+        results: [ReviewDto]? = nil,
+        totalPages: Int? = nil,
+        totalResults: Int? = nil
     ) {
         self.id = id
         self.page = page

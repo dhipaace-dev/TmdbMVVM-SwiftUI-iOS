@@ -13,8 +13,8 @@ public struct TrailerResponse: Decodable {
     let results: [TrailerDto]?
 
     init(
-        id: Int?,
-        results: [TrailerDto]?
+        id: Int? = nil,
+        results: [TrailerDto]? = nil
     ) {
         self.id = id
         self.results = results

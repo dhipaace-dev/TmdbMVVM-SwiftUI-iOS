@@ -24,20 +24,20 @@ struct MovieDto: Identifiable, Decodable {
     let voteCount: Int?
     
     init(
-        adult: Bool?,
-        backdropPath: String?,
-        genreIds: [Int]?,
+        adult: Bool? = nil,
+        backdropPath: String? = nil,
+        genreIds: [Int]? = nil,
         id: Int?,
-        originalLanguage: String?,
-        originalTitle: String?,
+        originalLanguage: String? = nil,
+        originalTitle: String? = nil,
         overview: String?,
-        popularity: Double?,
+        popularity: Double? = nil,
         posterPath: String?,
-        releaseDate: String?,
+        releaseDate: String? = nil,
         title: String?,
-        video: Bool?,
-        voteAverage: Double?,
-        voteCount: Int?
+        video: Bool? = nil,
+        voteAverage: Double? = nil,
+        voteCount: Int? = nil
     ) {
         self.adult = adult
         self.backdropPath = backdropPath
