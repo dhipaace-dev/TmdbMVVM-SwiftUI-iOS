@@ -31,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F3116D6303A8E0400D77A37 /* TmdbMVVM-SwiftUI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TmdbMVVM-SwiftUI.xctestplan"; sourceTree = "<group>"; };
 		9F66A23A2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TmdbMVVM-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F66A2472FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TmdbMVVM-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F66A2512FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TmdbMVVM-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +87,7 @@
 		9F66A2312FFCE6ED006F4ED7 = {
 			isa = PBXGroup;
 			children = (
+				9F3116D6303A8E0400D77A37 /* TmdbMVVM-SwiftUI.xctestplan */,
 				9F66A23C2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI */,
 				9F66A24A2FFCE6EF006F4ED7 /* TMDBSwiftUIAppTests */,
 				9F66A2542FFCE6EF006F4ED7 /* TMDBSwiftUIAppUITests */,

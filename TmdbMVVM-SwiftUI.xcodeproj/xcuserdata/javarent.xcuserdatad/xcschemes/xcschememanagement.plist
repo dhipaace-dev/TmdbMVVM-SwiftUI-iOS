@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Playground (Playground).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TMDBSwiftUIApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,24 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9F66A2392FFCE6ED006F4ED7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F66A2462FFCE6EF006F4ED7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F66A2502FFCE6EF006F4ED7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

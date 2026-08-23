@@ -1,0 +1,46 @@
+{
+  "configurations" : [
+    {
+      "id" : "414CCFBD-C814-4616-85DC-DDD42D011E4E",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:TmdbMVVM-SwiftUI.xcodeproj",
+          "identifier" : "9F66A2392FFCE6ED006F4ED7",
+          "name" : "TmdbMVVM-SwiftUI"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TmdbMVVM-SwiftUI.xcodeproj",
+      "identifier" : "9F66A2392FFCE6ED006F4ED7",
+      "name" : "TmdbMVVM-SwiftUI"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TmdbMVVM-SwiftUI.xcodeproj",
+        "identifier" : "9F66A2462FFCE6EF006F4ED7",
+        "name" : "TmdbMVVM-SwiftUITests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TmdbMVVM-SwiftUI.xcodeproj",
+        "identifier" : "9F66A2502FFCE6EF006F4ED7",
+        "name" : "TmdbMVVM-SwiftUIUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
