@@ -42,7 +42,7 @@ enum APIRouter: URLRequestConvertible {
 
         //p["api_key"] = BuildConfiguration.shared.API_KEY
         
-        let API_KEY = "bf5c57d57d1c81706c6ef4794e8d753e"
+        let API_KEY = DataConstants.API_KEY
         p["api_key"] = API_KEY
 
         switch self {
