@@ -42,8 +42,8 @@ enum APIRouter: URLRequestConvertible {
 
         //p["api_key"] = BuildConfiguration.shared.API_KEY
         
-        let API_KEY = DataConstants.API_KEY
-        p["api_key"] = API_KEY
+        //let API_KEY = DataConstants.API_KEY
+        //p["api_key"] = API_KEY
 
         switch self {
         case .fetchMovieGenre:
@@ -65,8 +65,9 @@ enum APIRouter: URLRequestConvertible {
 
     public func asURLRequest() throws -> URLRequest {
         //let url = URL(string: "\(BuildConfiguration.shared.API_BASE_URL)\(path)")
-        let url = URL(string: "https://api.themoviedb.org/\(path)")
-
+        //let url = URL(string: "https://api.themoviedb.org/\(path)")
+        let url = URL(string: "https://demo-tmdb-proxy-api.vercel.app/\(path)")
+        
         if let theUrl = url {
             var urlRequest = URLRequest(url: theUrl)
             urlRequest.httpMethod = method.rawValue
