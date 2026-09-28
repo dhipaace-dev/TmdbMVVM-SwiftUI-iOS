@@ -13,6 +13,8 @@
 		9F01A836306A559500A18A16 /* data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A807306A553500A18A16 /* data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F01A88D306A575100A18A16 /* app_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A861306A56C300A18A16 /* app_framework.framework */; };
 		9F01A88E306A575100A18A16 /* app_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A861306A56C300A18A16 /* app_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F01A8C9306A59D700A18A16 /* feature_genre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8BA306A599100A18A16 /* feature_genre.framework */; };
+		9F01A8CA306A59D700A18A16 /* feature_genre.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8BA306A599100A18A16 /* feature_genre.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F9BAB693015E27600FDAF27 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9BAB683015E27600FDAF27 /* Kingfisher */; };
 		9F9BAB6C3016100700FDAF27 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9BAB6B3016100700FDAF27 /* YouTubePlayerKit */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 9F01A841306A56C200A18A16;
 			remoteInfo = app_framework;
+		};
+		9F01A8B9306A599100A18A16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F01A8B4306A599000A18A16 /* feature_genre.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F01A89A306A599000A18A16;
+			remoteInfo = feature_genre;
 		};
 		9F66A2482FFCE6EF006F4ED7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +74,7 @@
 				9F01A88E306A575100A18A16 /* app_framework.framework in Embed Frameworks */,
 				9F01A836306A559500A18A16 /* data.framework in Embed Frameworks */,
 				9F01A7DB306A536200A18A16 /* domain.framework in Embed Frameworks */,
+				9F01A8CA306A59D700A18A16 /* feature_genre.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +85,7 @@
 		9F01A7A1306A532500A18A16 /* domain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = domain.xcodeproj; path = domain/domain.xcodeproj; sourceTree = "<group>"; };
 		9F01A801306A553500A18A16 /* data.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = data.xcodeproj; path = data/data.xcodeproj; sourceTree = "<group>"; };
 		9F01A85B306A56C300A18A16 /* app_framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = app_framework.xcodeproj; path = app_framework/app_framework.xcodeproj; sourceTree = "<group>"; };
+		9F01A8B4306A599000A18A16 /* feature_genre.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_genre.xcodeproj; path = feature_genre/feature_genre.xcodeproj; sourceTree = "<group>"; };
 		9F3116D6303A8E0400D77A37 /* TmdbMVVM-SwiftUI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TmdbMVVM-SwiftUI.xctestplan"; sourceTree = "<group>"; };
 		9F66A23A2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TmdbMVVM-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F66A2472FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TmdbMVVM-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F01A7DA306A536200A18A16 /* domain.framework in Frameworks */,
+				9F01A8C9306A59D700A18A16 /* feature_genre.framework in Frameworks */,
 				9F9BAB693015E27600FDAF27 /* Kingfisher in Frameworks */,
 				9F01A88D306A575100A18A16 /* app_framework.framework in Frameworks */,
 				9F9BAB6C3016100700FDAF27 /* YouTubePlayerKit in Frameworks */,
@@ -160,9 +172,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9F01A88F306A594D00A18A16 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				9F01A8B4306A599000A18A16 /* feature_genre.xcodeproj */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		9F01A8B5306A599000A18A16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F01A8BA306A599100A18A16 /* feature_genre.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9F66A2312FFCE6ED006F4ED7 = {
 			isa = PBXGroup;
 			children = (
+				9F01A88F306A594D00A18A16 /* features */,
 				9F01A85B306A56C300A18A16 /* app_framework.xcodeproj */,
 				9F01A801306A553500A18A16 /* data.xcodeproj */,
 				9F01A7A1306A532500A18A16 /* domain.xcodeproj */,
@@ -311,6 +340,10 @@
 					ProductGroup = 9F01A7A2306A532500A18A16 /* Products */;
 					ProjectRef = 9F01A7A1306A532500A18A16 /* domain.xcodeproj */;
 				},
+				{
+					ProductGroup = 9F01A8B5306A599000A18A16 /* Products */;
+					ProjectRef = 9F01A8B4306A599000A18A16 /* feature_genre.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -341,6 +374,13 @@
 			fileType = wrapper.framework;
 			path = app_framework.framework;
 			remoteRef = 9F01A860306A56C300A18A16 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F01A8BA306A599100A18A16 /* feature_genre.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = feature_genre.framework;
+			remoteRef = 9F01A8B9306A599100A18A16 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

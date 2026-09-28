@@ -10,7 +10,7 @@ import Combine
 import domain
 
 @MainActor
-final class GenreViewModel: ObservableObject {
+public final class GenreViewModel: ObservableObject {
     @Published var genres: [Genre] = []
     @Published var errorMessage: String?
     @Published var isLoading = false
@@ -19,7 +19,7 @@ final class GenreViewModel: ObservableObject {
     
     private var cancellables = Set<AnyCancellable>()
     
-    init(getMovieGenreUseCase: GetMovieGenreUseCase) {
+    public init(getMovieGenreUseCase: GetMovieGenreUseCase) {
         self.getMovieGenreUseCase = getMovieGenreUseCase
     }
     

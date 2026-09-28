@@ -9,6 +9,7 @@ import SwiftUI
 import domain
 import data
 import app_framework
+import feature_genre
 
 struct ContentView: View {
     @StateObject private var navigationService = NavigationService()

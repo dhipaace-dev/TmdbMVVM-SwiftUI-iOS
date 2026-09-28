@@ -8,15 +8,15 @@
 import SwiftUI
 import app_framework
 
-struct GenreView: View {
+public struct GenreView: View {
     @StateObject private var viewModel: GenreViewModel
     @EnvironmentObject var navigationService: NavigationService
     
-    init(viewModel: GenreViewModel) {
+    public init(viewModel: GenreViewModel) {
         _viewModel = StateObject(wrappedValue: viewModel)
     }
     
-    var body: some View {
+    public var body: some View {
         List(viewModel.genres) { genre in
             Text(genre.name)
                 .bold()
