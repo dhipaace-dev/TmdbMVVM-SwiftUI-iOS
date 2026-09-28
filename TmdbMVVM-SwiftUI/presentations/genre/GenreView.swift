@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import app_framework
 
 struct GenreView: View {
     @StateObject private var viewModel: GenreViewModel

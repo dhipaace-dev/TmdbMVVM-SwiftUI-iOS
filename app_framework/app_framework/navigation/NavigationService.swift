@@ -8,30 +8,32 @@
 import Foundation
 import SwiftUI
 
-final class NavigationService: ObservableObject {
-    @Published var path = NavigationPath()
+public final class NavigationService: ObservableObject {
+    @Published public var path = NavigationPath()
+    
+    public init() {}
     
     private func push(_ screen: AppScreen) {
         path.append(screen)
     }
     
-    func pop() {
+    public func pop() {
         path.removeLast()
     }
 
-    func navigateToMovieByGenre(genreId: Int, genreName: String) {
+    public func navigateToMovieByGenre(genreId: Int, genreName: String) {
         push(.moviesByGenre(genreId))
     }
 
-    func navigateToMovieDetail(movieId: Int) {
+    public func navigateToMovieDetail(movieId: Int) {
         push(.movieDetails(movieId))
     }
 
-    func navigateToMovieReview(movieId: Int, movieTitle: String) {
+    public func navigateToMovieReview(movieId: Int, movieTitle: String) {
         push(.movieReviews(movieId))
     }
 
-    func navigateToMovieTrailer(movieId: Int) {
+    public func navigateToMovieTrailer(movieId: Int) {
         push(.movieTrailer(movieId))
     }
 }

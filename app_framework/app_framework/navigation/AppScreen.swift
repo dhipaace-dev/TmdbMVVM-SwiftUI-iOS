@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum AppScreen: Hashable {
+public enum AppScreen: Hashable {
     case moviesByGenre(Int)
     case movieDetails(Int)
     case movieReviews(Int)

@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Kingfisher
+import app_framework
 
 struct MoviesByGenreView: View {
     @StateObject private var viewModel: MoviesByGenreViewModel
