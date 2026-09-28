@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9F01A7DA306A536200A18A16 /* domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A7A7306A532500A18A16 /* domain.framework */; };
 		9F01A7DB306A536200A18A16 /* domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A7A7306A532500A18A16 /* domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F01A835306A559500A18A16 /* data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A807306A553500A18A16 /* data.framework */; };
+		9F01A836306A559500A18A16 /* data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A807306A553500A18A16 /* data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F9BAB693015E27600FDAF27 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9BAB683015E27600FDAF27 /* Kingfisher */; };
 		9F9BAB6C3016100700FDAF27 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9BAB6B3016100700FDAF27 /* YouTubePlayerKit */; };
 		9FD2070C3015A0030020DDBB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9FD2070B3015A0030020DDBB /* Alamofire */; };
@@ -22,6 +24,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 9F01A787306A532400A18A16;
 			remoteInfo = domain;
+		};
+		9F01A806306A553500A18A16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F01A801306A553500A18A16 /* data.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F01A7E7306A553400A18A16;
+			remoteInfo = data;
 		};
 		9F66A2482FFCE6EF006F4ED7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -46,6 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				9F01A836306A559500A18A16 /* data.framework in Embed Frameworks */,
 				9F01A7DB306A536200A18A16 /* domain.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -55,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		9F01A7A1306A532500A18A16 /* domain.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = domain.xcodeproj; path = domain/domain.xcodeproj; sourceTree = "<group>"; };
+		9F01A801306A553500A18A16 /* data.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = data.xcodeproj; path = data/data.xcodeproj; sourceTree = "<group>"; };
 		9F3116D6303A8E0400D77A37 /* TmdbMVVM-SwiftUI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TmdbMVVM-SwiftUI.xctestplan"; sourceTree = "<group>"; };
 		9F66A23A2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TmdbMVVM-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F66A2472FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TmdbMVVM-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +99,7 @@
 				9F9BAB693015E27600FDAF27 /* Kingfisher in Frameworks */,
 				9FD207663015B0700020DDBB /* SwiftyJSON in Frameworks */,
 				9F9BAB6C3016100700FDAF27 /* YouTubePlayerKit in Frameworks */,
+				9F01A835306A559500A18A16 /* data.framework in Frameworks */,
 				9FD2070C3015A0030020DDBB /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,9 +136,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9F01A802306A553500A18A16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F01A807306A553500A18A16 /* data.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9F66A2312FFCE6ED006F4ED7 = {
 			isa = PBXGroup;
 			children = (
+				9F01A801306A553500A18A16 /* data.xcodeproj */,
 				9F01A7A1306A532500A18A16 /* domain.xcodeproj */,
 				9F3116D6303A8E0400D77A37 /* TmdbMVVM-SwiftUI.xctestplan */,
 				9F66A23C2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI */,
@@ -266,6 +287,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 9F01A802306A553500A18A16 /* Products */;
+					ProjectRef = 9F01A801306A553500A18A16 /* data.xcodeproj */;
+				},
+				{
 					ProductGroup = 9F01A7A2306A532500A18A16 /* Products */;
 					ProjectRef = 9F01A7A1306A532500A18A16 /* domain.xcodeproj */;
 				},
@@ -285,6 +310,13 @@
 			fileType = wrapper.framework;
 			path = domain.framework;
 			remoteRef = 9F01A7A6306A532500A18A16 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F01A807306A553500A18A16 /* data.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = data.framework;
+			remoteRef = 9F01A806306A553500A18A16 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

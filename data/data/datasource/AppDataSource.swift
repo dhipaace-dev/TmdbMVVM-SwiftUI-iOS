@@ -9,7 +9,7 @@ import Foundation
 import Combine
 import domain
 
-protocol AppDataSource {
+public protocol AppDataSource {
     func fetchMovieGenre() -> AnyPublisher<GenreResponse, AppError>
     func fetchMovieByGenre(genreId: String, page: Int) -> AnyPublisher<DiscoverMovieByGenreResponse, AppError>
     func fetchMovieDetail(movieId: Int) -> AnyPublisher<MovieDetailsResponse, AppError>
