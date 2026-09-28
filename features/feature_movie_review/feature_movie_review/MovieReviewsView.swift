@@ -8,14 +8,14 @@
 import SwiftUI
 import Kingfisher
 
-struct MovieReviewsView: View {
+public struct MovieReviewsView: View {
     @StateObject private var viewModel: MovieReviewsViewModel
     
-    init(viewModel: MovieReviewsViewModel) {
+    public init(viewModel: MovieReviewsViewModel) {
         _viewModel = StateObject(wrappedValue: viewModel)
     }
     
-    var body: some View {
+    public var body: some View {
         List(viewModel.reviews) { review in
             VStack {
                 Text(review.content)

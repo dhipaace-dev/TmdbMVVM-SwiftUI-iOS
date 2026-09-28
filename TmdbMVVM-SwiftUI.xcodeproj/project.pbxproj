@@ -19,7 +19,8 @@
 		9F01A908306A5B6700A18A16 /* feature_movie_by_genre.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8F5306A5AD400A18A16 /* feature_movie_by_genre.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F01A945306A5D1600A18A16 /* feature_movie_details.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A933306A5CC500A18A16 /* feature_movie_details.framework */; };
 		9F01A946306A5D1600A18A16 /* feature_movie_details.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A933306A5CC500A18A16 /* feature_movie_details.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F9BAB693015E27600FDAF27 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9BAB683015E27600FDAF27 /* Kingfisher */; };
+		9F01A980306A5EFE00A18A16 /* feature_movie_review.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A971306A5EAA00A18A16 /* feature_movie_review.framework */; };
+		9F01A981306A5EFE00A18A16 /* feature_movie_review.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A971306A5EAA00A18A16 /* feature_movie_review.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F9BAB6C3016100700FDAF27 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9BAB6B3016100700FDAF27 /* YouTubePlayerKit */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,13 @@
 			remoteGlobalIDString = 9F01A913306A5CC400A18A16;
 			remoteInfo = feature_movie_details;
 		};
+		9F01A970306A5EAA00A18A16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F01A96B306A5EA900A18A16 /* feature_movie_review.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F01A951306A5EA900A18A16;
+			remoteInfo = feature_movie_review;
+		};
 		9F66A2482FFCE6EF006F4ED7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9F66A2322FFCE6ED006F4ED7 /* Project object */;
@@ -90,6 +98,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				9F01A88E306A575100A18A16 /* app_framework.framework in Embed Frameworks */,
+				9F01A981306A5EFE00A18A16 /* feature_movie_review.framework in Embed Frameworks */,
 				9F01A908306A5B6700A18A16 /* feature_movie_by_genre.framework in Embed Frameworks */,
 				9F01A836306A559500A18A16 /* data.framework in Embed Frameworks */,
 				9F01A7DB306A536200A18A16 /* domain.framework in Embed Frameworks */,
@@ -108,6 +117,7 @@
 		9F01A8B4306A599000A18A16 /* feature_genre.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_genre.xcodeproj; path = feature_genre/feature_genre.xcodeproj; sourceTree = "<group>"; };
 		9F01A8EF306A5AD400A18A16 /* feature_movie_by_genre.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_movie_by_genre.xcodeproj; path = feature_movie_by_genre/feature_movie_by_genre.xcodeproj; sourceTree = "<group>"; };
 		9F01A92D306A5CC500A18A16 /* feature_movie_details.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_movie_details.xcodeproj; path = feature_movie_details/feature_movie_details.xcodeproj; sourceTree = "<group>"; };
+		9F01A96B306A5EA900A18A16 /* feature_movie_review.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_movie_review.xcodeproj; path = feature_movie_review/feature_movie_review.xcodeproj; sourceTree = "<group>"; };
 		9F3116D6303A8E0400D77A37 /* TmdbMVVM-SwiftUI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TmdbMVVM-SwiftUI.xctestplan"; sourceTree = "<group>"; };
 		9F66A23A2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TmdbMVVM-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F66A2472FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TmdbMVVM-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,9 +147,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F01A980306A5EFE00A18A16 /* feature_movie_review.framework in Frameworks */,
 				9F01A7DA306A536200A18A16 /* domain.framework in Frameworks */,
 				9F01A8C9306A59D700A18A16 /* feature_genre.framework in Frameworks */,
-				9F9BAB693015E27600FDAF27 /* Kingfisher in Frameworks */,
 				9F01A945306A5D1600A18A16 /* feature_movie_details.framework in Frameworks */,
 				9F01A88D306A575100A18A16 /* app_framework.framework in Frameworks */,
 				9F9BAB6C3016100700FDAF27 /* YouTubePlayerKit in Frameworks */,
@@ -199,6 +209,7 @@
 		9F01A88F306A594D00A18A16 /* features */ = {
 			isa = PBXGroup;
 			children = (
+				9F01A96B306A5EA900A18A16 /* feature_movie_review.xcodeproj */,
 				9F01A92D306A5CC500A18A16 /* feature_movie_details.xcodeproj */,
 				9F01A8EF306A5AD400A18A16 /* feature_movie_by_genre.xcodeproj */,
 				9F01A8B4306A599000A18A16 /* feature_genre.xcodeproj */,
@@ -226,6 +237,14 @@
 			isa = PBXGroup;
 			children = (
 				9F01A933306A5CC500A18A16 /* feature_movie_details.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F01A96C306A5EA900A18A16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F01A971306A5EAA00A18A16 /* feature_movie_review.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,7 +296,6 @@
 			);
 			name = "TmdbMVVM-SwiftUI";
 			packageProductDependencies = (
-				9F9BAB683015E27600FDAF27 /* Kingfisher */,
 				9F9BAB6B3016100700FDAF27 /* YouTubePlayerKit */,
 			);
 			productName = TMDBSwiftUIApp;
@@ -363,7 +381,6 @@
 			mainGroup = 9F66A2312FFCE6ED006F4ED7;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				9F9BAB673015E27600FDAF27 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				9F9BAB6A3016100700FDAF27 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
 			);
 			preferredProjectObjectVersion = 77;
@@ -393,6 +410,10 @@
 				{
 					ProductGroup = 9F01A92E306A5CC500A18A16 /* Products */;
 					ProjectRef = 9F01A92D306A5CC500A18A16 /* feature_movie_details.xcodeproj */;
+				},
+				{
+					ProductGroup = 9F01A96C306A5EA900A18A16 /* Products */;
+					ProjectRef = 9F01A96B306A5EA900A18A16 /* feature_movie_review.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -445,6 +466,13 @@
 			fileType = wrapper.framework;
 			path = feature_movie_details.framework;
 			remoteRef = 9F01A932306A5CC500A18A16 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F01A971306A5EAA00A18A16 /* feature_movie_review.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = feature_movie_review.framework;
+			remoteRef = 9F01A970306A5EAA00A18A16 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -794,14 +822,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9F9BAB673015E27600FDAF27 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.11.0;
-			};
-		};
 		9F9BAB6A3016100700FDAF27 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
@@ -813,11 +833,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9F9BAB683015E27600FDAF27 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9F9BAB673015E27600FDAF27 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
 		9F9BAB6B3016100700FDAF27 /* YouTubePlayerKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9F9BAB6A3016100700FDAF27 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;

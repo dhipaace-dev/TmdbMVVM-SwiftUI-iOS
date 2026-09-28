@@ -10,7 +10,7 @@ import Combine
 import domain
 
 @MainActor
-final class MovieReviewsViewModel: ObservableObject {
+public final class MovieReviewsViewModel: ObservableObject {
     @Published var reviews: [Review] = []
     @Published var errorMessage: String?
     @Published var isLoading = false
@@ -22,7 +22,7 @@ final class MovieReviewsViewModel: ObservableObject {
     
     private var cancellables = Set<AnyCancellable>()
     
-    init(movieId: Int, getMovieReviewUseCase: GetMovieReviewUseCase) {
+    public init(movieId: Int, getMovieReviewUseCase: GetMovieReviewUseCase) {
         self.movieId = movieId
         self.getMovieReviewUseCase = getMovieReviewUseCase
     }
