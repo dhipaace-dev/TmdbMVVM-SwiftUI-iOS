@@ -10,7 +10,7 @@ import Combine
 import domain
 
 @MainActor
-final class MoviesByGenreViewModel: ObservableObject {
+public final class MoviesByGenreViewModel: ObservableObject {
     @Published var movies: [Movie] = []
     @Published var errorMessage: String?
     @Published var isLoading = false
@@ -22,7 +22,7 @@ final class MoviesByGenreViewModel: ObservableObject {
     private var page = 0
     private let genreId: Int
     
-    init(genreId: Int, getMovieByGenreUseCase: GetMovieByGenreUseCase) {
+    public init(genreId: Int, getMovieByGenreUseCase: GetMovieByGenreUseCase) {
         self.genreId = genreId
         self.getMovieByGenreUseCase = getMovieByGenreUseCase
     }

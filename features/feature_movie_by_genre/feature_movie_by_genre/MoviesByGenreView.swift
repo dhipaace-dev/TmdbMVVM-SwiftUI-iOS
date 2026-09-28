@@ -9,15 +9,15 @@ import SwiftUI
 import Kingfisher
 import app_framework
 
-struct MoviesByGenreView: View {
+public struct MoviesByGenreView: View {
     @StateObject private var viewModel: MoviesByGenreViewModel
     @EnvironmentObject var navigationService: NavigationService
     
-    init(viewModel: MoviesByGenreViewModel) {
+    public init(viewModel: MoviesByGenreViewModel) {
         _viewModel = StateObject(wrappedValue: viewModel)
     }
     
-    var body: some View {
+    public var body: some View {
         List(viewModel.movies) { movie in
             HStack {
                 KFImage(URL(string: movie.imageUrl))
