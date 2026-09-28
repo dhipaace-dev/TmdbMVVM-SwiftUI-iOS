@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//import domain
+import domain
 
 public struct TrailerResponse: Decodable {
     let id: Int?

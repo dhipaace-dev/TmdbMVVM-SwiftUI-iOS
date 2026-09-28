@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//import domain
+import domain
 
 public struct DiscoverMovieByGenreResponse: Decodable {
     let page: Int?

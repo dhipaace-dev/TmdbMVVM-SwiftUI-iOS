@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import domain
 
 protocol AppDataSource {
     func fetchMovieGenre() -> AnyPublisher<GenreResponse, AppError>

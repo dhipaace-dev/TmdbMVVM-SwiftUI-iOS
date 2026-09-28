@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import domain
 
 struct ContentView: View {
     @StateObject private var navigationService = NavigationService()

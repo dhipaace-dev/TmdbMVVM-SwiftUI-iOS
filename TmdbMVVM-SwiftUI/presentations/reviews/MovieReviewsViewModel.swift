@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import domain
 
 @MainActor
 final class MovieReviewsViewModel: ObservableObject {

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//import domain
+import domain
 
 public struct ReviewResponse: Decodable {
     let id: Int?

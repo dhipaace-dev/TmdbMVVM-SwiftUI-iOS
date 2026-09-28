@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//import domain
+import domain
 
 public struct MovieDetailsResponse: Decodable {
     let adult: Bool?

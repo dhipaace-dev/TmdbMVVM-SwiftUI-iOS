@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//import domain
+import domain
 
 public struct GenreResponse: Decodable {
     let genres: [GenreDto]?
