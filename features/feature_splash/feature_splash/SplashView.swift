@@ -7,10 +7,14 @@
 
 import SwiftUI
 
-struct SplashView: View {
+public struct SplashView: View {
     let onFinish: () -> Void
     
-    var body: some View {
+    public init(onFinish: @escaping () -> Void) {
+        self.onFinish = onFinish
+    }
+    
+    public var body: some View {
         Text("TMDB App")
             .font(.largeTitle)
             .onAppear {

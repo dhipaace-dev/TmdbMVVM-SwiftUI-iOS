@@ -23,6 +23,8 @@
 		9F01A981306A5EFE00A18A16 /* feature_movie_review.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A971306A5EAA00A18A16 /* feature_movie_review.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F01A9BB306A605900A18A16 /* feature_movie_trailer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9AC306A600E00A18A16 /* feature_movie_trailer.framework */; };
 		9F01A9BC306A605900A18A16 /* feature_movie_trailer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9AC306A600E00A18A16 /* feature_movie_trailer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F01A9EC306A621A00A18A16 /* feature_splash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9E7306A61ED00A18A16 /* feature_splash.framework */; };
+		9F01A9ED306A621A00A18A16 /* feature_splash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9E7306A61ED00A18A16 /* feature_splash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,13 @@
 			remoteGlobalIDString = 9F01A98C306A600C00A18A16;
 			remoteInfo = feature_movie_trailer;
 		};
+		9F01A9E6306A61ED00A18A16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F01A9E1306A61ED00A18A16 /* feature_splash.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F01A9C7306A61EC00A18A16;
+			remoteInfo = feature_splash;
+		};
 		9F66A2482FFCE6EF006F4ED7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9F66A2322FFCE6ED006F4ED7 /* Project object */;
@@ -110,6 +119,7 @@
 				9F01A981306A5EFE00A18A16 /* feature_movie_review.framework in Embed Frameworks */,
 				9F01A908306A5B6700A18A16 /* feature_movie_by_genre.framework in Embed Frameworks */,
 				9F01A836306A559500A18A16 /* data.framework in Embed Frameworks */,
+				9F01A9ED306A621A00A18A16 /* feature_splash.framework in Embed Frameworks */,
 				9F01A7DB306A536200A18A16 /* domain.framework in Embed Frameworks */,
 				9F01A8CA306A59D700A18A16 /* feature_genre.framework in Embed Frameworks */,
 				9F01A946306A5D1600A18A16 /* feature_movie_details.framework in Embed Frameworks */,
@@ -128,6 +138,7 @@
 		9F01A92D306A5CC500A18A16 /* feature_movie_details.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_movie_details.xcodeproj; path = feature_movie_details/feature_movie_details.xcodeproj; sourceTree = "<group>"; };
 		9F01A96B306A5EA900A18A16 /* feature_movie_review.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_movie_review.xcodeproj; path = feature_movie_review/feature_movie_review.xcodeproj; sourceTree = "<group>"; };
 		9F01A9A6306A600D00A18A16 /* feature_movie_trailer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_movie_trailer.xcodeproj; path = feature_movie_trailer/feature_movie_trailer.xcodeproj; sourceTree = "<group>"; };
+		9F01A9E1306A61ED00A18A16 /* feature_splash.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_splash.xcodeproj; path = feature_splash/feature_splash.xcodeproj; sourceTree = "<group>"; };
 		9F3116D6303A8E0400D77A37 /* TmdbMVVM-SwiftUI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TmdbMVVM-SwiftUI.xctestplan"; sourceTree = "<group>"; };
 		9F66A23A2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TmdbMVVM-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F66A2472FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TmdbMVVM-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +173,7 @@
 				9F01A9BB306A605900A18A16 /* feature_movie_trailer.framework in Frameworks */,
 				9F01A8C9306A59D700A18A16 /* feature_genre.framework in Frameworks */,
 				9F01A945306A5D1600A18A16 /* feature_movie_details.framework in Frameworks */,
+				9F01A9EC306A621A00A18A16 /* feature_splash.framework in Frameworks */,
 				9F01A88D306A575100A18A16 /* app_framework.framework in Frameworks */,
 				9F01A835306A559500A18A16 /* data.framework in Frameworks */,
 				9F01A907306A5B6700A18A16 /* feature_movie_by_genre.framework in Frameworks */,
@@ -219,6 +231,7 @@
 		9F01A88F306A594D00A18A16 /* features */ = {
 			isa = PBXGroup;
 			children = (
+				9F01A9E1306A61ED00A18A16 /* feature_splash.xcodeproj */,
 				9F01A9A6306A600D00A18A16 /* feature_movie_trailer.xcodeproj */,
 				9F01A96B306A5EA900A18A16 /* feature_movie_review.xcodeproj */,
 				9F01A92D306A5CC500A18A16 /* feature_movie_details.xcodeproj */,
@@ -264,6 +277,14 @@
 			isa = PBXGroup;
 			children = (
 				9F01A9AC306A600E00A18A16 /* feature_movie_trailer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F01A9E2306A61ED00A18A16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F01A9E7306A61ED00A18A16 /* feature_splash.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -436,6 +457,10 @@
 					ProductGroup = 9F01A9A7306A600D00A18A16 /* Products */;
 					ProjectRef = 9F01A9A6306A600D00A18A16 /* feature_movie_trailer.xcodeproj */;
 				},
+				{
+					ProductGroup = 9F01A9E2306A61ED00A18A16 /* Products */;
+					ProjectRef = 9F01A9E1306A61ED00A18A16 /* feature_splash.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -501,6 +526,13 @@
 			fileType = wrapper.framework;
 			path = feature_movie_trailer.framework;
 			remoteRef = 9F01A9AB306A600E00A18A16 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F01A9E7306A61ED00A18A16 /* feature_splash.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = feature_splash.framework;
+			remoteRef = 9F01A9E6306A61ED00A18A16 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

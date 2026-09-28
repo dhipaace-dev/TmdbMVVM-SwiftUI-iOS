@@ -14,6 +14,7 @@ import feature_movie_by_genre
 import feature_movie_details
 import feature_movie_review
 import feature_movie_trailer
+import feature_splash
 
 struct ContentView: View {
     @StateObject private var navigationService = NavigationService()
