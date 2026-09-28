@@ -10,7 +10,7 @@ import Combine
 import domain
 
 @MainActor
-final class MovieDetailsViewModel: ObservableObject {
+public final class MovieDetailsViewModel: ObservableObject {
     @Published var movie: MovieDetailsModel? = nil
     @Published var errorMessage: String?
     @Published var isLoading = false
@@ -21,7 +21,7 @@ final class MovieDetailsViewModel: ObservableObject {
     
     private var cancellables = Set<AnyCancellable>()
     
-    init(movieId: Int, getMovieDetailsUseCase: GetMovieDetailsUseCase) {
+    public init(movieId: Int, getMovieDetailsUseCase: GetMovieDetailsUseCase) {
         self.movieId = movieId
         self.getMovieDetailsUseCase = getMovieDetailsUseCase
     }

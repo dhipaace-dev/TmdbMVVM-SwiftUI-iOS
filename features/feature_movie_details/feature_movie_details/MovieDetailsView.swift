@@ -9,17 +9,17 @@ import SwiftUI
 import Kingfisher
 import app_framework
 
-struct MovieDetailsView: View {
+public struct MovieDetailsView: View {
     let movieId: Int
     @StateObject private var viewModel: MovieDetailsViewModel
     @EnvironmentObject var navigationService: NavigationService
     
-    init(movieId: Int, viewModel: MovieDetailsViewModel) {
+    public init(movieId: Int, viewModel: MovieDetailsViewModel) {
         self.movieId = movieId
         _viewModel = StateObject(wrappedValue: viewModel)
     }
     
-    var body: some View {
+    public var body: some View {
         ScrollView {
             VStack(spacing: 20) {
                 Text(viewModel.movie?.title ?? "")

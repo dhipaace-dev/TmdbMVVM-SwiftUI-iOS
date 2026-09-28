@@ -17,6 +17,8 @@
 		9F01A8CA306A59D700A18A16 /* feature_genre.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8BA306A599100A18A16 /* feature_genre.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F01A907306A5B6700A18A16 /* feature_movie_by_genre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8F5306A5AD400A18A16 /* feature_movie_by_genre.framework */; };
 		9F01A908306A5B6700A18A16 /* feature_movie_by_genre.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8F5306A5AD400A18A16 /* feature_movie_by_genre.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F01A945306A5D1600A18A16 /* feature_movie_details.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A933306A5CC500A18A16 /* feature_movie_details.framework */; };
+		9F01A946306A5D1600A18A16 /* feature_movie_details.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A933306A5CC500A18A16 /* feature_movie_details.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F9BAB693015E27600FDAF27 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9BAB683015E27600FDAF27 /* Kingfisher */; };
 		9F9BAB6C3016100700FDAF27 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9BAB6B3016100700FDAF27 /* YouTubePlayerKit */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,13 @@
 			remoteGlobalIDString = 9F01A8D5306A5AD400A18A16;
 			remoteInfo = feature_movie_by_genre;
 		};
+		9F01A932306A5CC500A18A16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F01A92D306A5CC500A18A16 /* feature_movie_details.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F01A913306A5CC400A18A16;
+			remoteInfo = feature_movie_details;
+		};
 		9F66A2482FFCE6EF006F4ED7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9F66A2322FFCE6ED006F4ED7 /* Project object */;
@@ -85,6 +94,7 @@
 				9F01A836306A559500A18A16 /* data.framework in Embed Frameworks */,
 				9F01A7DB306A536200A18A16 /* domain.framework in Embed Frameworks */,
 				9F01A8CA306A59D700A18A16 /* feature_genre.framework in Embed Frameworks */,
+				9F01A946306A5D1600A18A16 /* feature_movie_details.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +107,7 @@
 		9F01A85B306A56C300A18A16 /* app_framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = app_framework.xcodeproj; path = app_framework/app_framework.xcodeproj; sourceTree = "<group>"; };
 		9F01A8B4306A599000A18A16 /* feature_genre.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_genre.xcodeproj; path = feature_genre/feature_genre.xcodeproj; sourceTree = "<group>"; };
 		9F01A8EF306A5AD400A18A16 /* feature_movie_by_genre.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_movie_by_genre.xcodeproj; path = feature_movie_by_genre/feature_movie_by_genre.xcodeproj; sourceTree = "<group>"; };
+		9F01A92D306A5CC500A18A16 /* feature_movie_details.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = feature_movie_details.xcodeproj; path = feature_movie_details/feature_movie_details.xcodeproj; sourceTree = "<group>"; };
 		9F3116D6303A8E0400D77A37 /* TmdbMVVM-SwiftUI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "TmdbMVVM-SwiftUI.xctestplan"; sourceTree = "<group>"; };
 		9F66A23A2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TmdbMVVM-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F66A2472FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TmdbMVVM-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +140,7 @@
 				9F01A7DA306A536200A18A16 /* domain.framework in Frameworks */,
 				9F01A8C9306A59D700A18A16 /* feature_genre.framework in Frameworks */,
 				9F9BAB693015E27600FDAF27 /* Kingfisher in Frameworks */,
+				9F01A945306A5D1600A18A16 /* feature_movie_details.framework in Frameworks */,
 				9F01A88D306A575100A18A16 /* app_framework.framework in Frameworks */,
 				9F9BAB6C3016100700FDAF27 /* YouTubePlayerKit in Frameworks */,
 				9F01A835306A559500A18A16 /* data.framework in Frameworks */,
@@ -187,6 +199,7 @@
 		9F01A88F306A594D00A18A16 /* features */ = {
 			isa = PBXGroup;
 			children = (
+				9F01A92D306A5CC500A18A16 /* feature_movie_details.xcodeproj */,
 				9F01A8EF306A5AD400A18A16 /* feature_movie_by_genre.xcodeproj */,
 				9F01A8B4306A599000A18A16 /* feature_genre.xcodeproj */,
 			);
@@ -205,6 +218,14 @@
 			isa = PBXGroup;
 			children = (
 				9F01A8F5306A5AD400A18A16 /* feature_movie_by_genre.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F01A92E306A5CC500A18A16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F01A933306A5CC500A18A16 /* feature_movie_details.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -369,6 +390,10 @@
 					ProductGroup = 9F01A8F0306A5AD400A18A16 /* Products */;
 					ProjectRef = 9F01A8EF306A5AD400A18A16 /* feature_movie_by_genre.xcodeproj */;
 				},
+				{
+					ProductGroup = 9F01A92E306A5CC500A18A16 /* Products */;
+					ProjectRef = 9F01A92D306A5CC500A18A16 /* feature_movie_details.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -413,6 +438,13 @@
 			fileType = wrapper.framework;
 			path = feature_movie_by_genre.framework;
 			remoteRef = 9F01A8F4306A5AD400A18A16 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F01A933306A5CC500A18A16 /* feature_movie_details.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = feature_movie_details.framework;
+			remoteRef = 9F01A932306A5CC500A18A16 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
