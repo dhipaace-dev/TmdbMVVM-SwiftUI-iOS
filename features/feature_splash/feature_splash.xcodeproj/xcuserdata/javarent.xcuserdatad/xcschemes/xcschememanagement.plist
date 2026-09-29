@@ -9,6 +9,21 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>feature_splashTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9F01A9D1306A61EC00A18A16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

@@ -25,6 +25,42 @@
 		9F01A9BC306A605900A18A16 /* feature_movie_trailer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9AC306A600E00A18A16 /* feature_movie_trailer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F01A9EC306A621A00A18A16 /* feature_splash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9E7306A61ED00A18A16 /* feature_splash.framework */; };
 		9F01A9ED306A621A00A18A16 /* feature_splash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9E7306A61ED00A18A16 /* feature_splash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50AC306B974A0064D30B /* feature_movie_review.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A971306A5EAA00A18A16 /* feature_movie_review.framework */; };
+		9FCC50AD306B974A0064D30B /* domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A7A7306A532500A18A16 /* domain.framework */; };
+		9FCC50AE306B974A0064D30B /* feature_movie_trailer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9AC306A600E00A18A16 /* feature_movie_trailer.framework */; };
+		9FCC50AF306B974A0064D30B /* feature_genre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8BA306A599100A18A16 /* feature_genre.framework */; };
+		9FCC50B0306B974A0064D30B /* feature_movie_details.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A933306A5CC500A18A16 /* feature_movie_details.framework */; };
+		9FCC50B1306B974A0064D30B /* feature_splash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9E7306A61ED00A18A16 /* feature_splash.framework */; };
+		9FCC50B2306B974A0064D30B /* app_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A861306A56C300A18A16 /* app_framework.framework */; };
+		9FCC50B3306B974A0064D30B /* data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A807306A553500A18A16 /* data.framework */; };
+		9FCC50B4306B974A0064D30B /* feature_movie_by_genre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8F5306A5AD400A18A16 /* feature_movie_by_genre.framework */; };
+		9FCC50B7306B974A0064D30B /* feature_movie_trailer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9AC306A600E00A18A16 /* feature_movie_trailer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50B8306B974A0064D30B /* app_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A861306A56C300A18A16 /* app_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50B9306B974A0064D30B /* feature_movie_review.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A971306A5EAA00A18A16 /* feature_movie_review.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50BA306B974A0064D30B /* feature_movie_by_genre.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8F5306A5AD400A18A16 /* feature_movie_by_genre.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50BB306B974A0064D30B /* data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A807306A553500A18A16 /* data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50BC306B974A0064D30B /* feature_splash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9E7306A61ED00A18A16 /* feature_splash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50BD306B974A0064D30B /* domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A7A7306A532500A18A16 /* domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50BE306B974A0064D30B /* feature_genre.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8BA306A599100A18A16 /* feature_genre.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50BF306B974A0064D30B /* feature_movie_details.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A933306A5CC500A18A16 /* feature_movie_details.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50C8306B97540064D30B /* feature_movie_review.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A971306A5EAA00A18A16 /* feature_movie_review.framework */; };
+		9FCC50C9306B97540064D30B /* domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A7A7306A532500A18A16 /* domain.framework */; };
+		9FCC50CA306B97540064D30B /* feature_movie_trailer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9AC306A600E00A18A16 /* feature_movie_trailer.framework */; };
+		9FCC50CB306B97540064D30B /* feature_genre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8BA306A599100A18A16 /* feature_genre.framework */; };
+		9FCC50CC306B97540064D30B /* feature_movie_details.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A933306A5CC500A18A16 /* feature_movie_details.framework */; };
+		9FCC50CD306B97540064D30B /* feature_splash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9E7306A61ED00A18A16 /* feature_splash.framework */; };
+		9FCC50CE306B97540064D30B /* app_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A861306A56C300A18A16 /* app_framework.framework */; };
+		9FCC50CF306B97540064D30B /* data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A807306A553500A18A16 /* data.framework */; };
+		9FCC50D0306B97540064D30B /* feature_movie_by_genre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8F5306A5AD400A18A16 /* feature_movie_by_genre.framework */; };
+		9FCC50D3306B97540064D30B /* feature_movie_trailer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9AC306A600E00A18A16 /* feature_movie_trailer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50D4306B97540064D30B /* app_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A861306A56C300A18A16 /* app_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50D5306B97540064D30B /* feature_movie_review.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A971306A5EAA00A18A16 /* feature_movie_review.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50D6306B97540064D30B /* feature_movie_by_genre.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8F5306A5AD400A18A16 /* feature_movie_by_genre.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50D7306B97540064D30B /* data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A807306A553500A18A16 /* data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50D8306B97540064D30B /* feature_splash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A9E7306A61ED00A18A16 /* feature_splash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50D9306B97540064D30B /* domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A7A7306A532500A18A16 /* domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50DA306B97540064D30B /* feature_genre.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A8BA306A599100A18A16 /* feature_genre.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCC50DB306B97540064D30B /* feature_movie_details.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F01A933306A5CC500A18A16 /* feature_movie_details.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +163,44 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FCC50B6306B974A0064D30B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9FCC50B7306B974A0064D30B /* feature_movie_trailer.framework in Embed Frameworks */,
+				9FCC50B8306B974A0064D30B /* app_framework.framework in Embed Frameworks */,
+				9FCC50B9306B974A0064D30B /* feature_movie_review.framework in Embed Frameworks */,
+				9FCC50BA306B974A0064D30B /* feature_movie_by_genre.framework in Embed Frameworks */,
+				9FCC50BB306B974A0064D30B /* data.framework in Embed Frameworks */,
+				9FCC50BC306B974A0064D30B /* feature_splash.framework in Embed Frameworks */,
+				9FCC50BD306B974A0064D30B /* domain.framework in Embed Frameworks */,
+				9FCC50BE306B974A0064D30B /* feature_genre.framework in Embed Frameworks */,
+				9FCC50BF306B974A0064D30B /* feature_movie_details.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCC50D2306B97540064D30B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9FCC50D3306B97540064D30B /* feature_movie_trailer.framework in Embed Frameworks */,
+				9FCC50D4306B97540064D30B /* app_framework.framework in Embed Frameworks */,
+				9FCC50D5306B97540064D30B /* feature_movie_review.framework in Embed Frameworks */,
+				9FCC50D6306B97540064D30B /* feature_movie_by_genre.framework in Embed Frameworks */,
+				9FCC50D7306B97540064D30B /* data.framework in Embed Frameworks */,
+				9FCC50D8306B97540064D30B /* feature_splash.framework in Embed Frameworks */,
+				9FCC50D9306B97540064D30B /* domain.framework in Embed Frameworks */,
+				9FCC50DA306B97540064D30B /* feature_genre.framework in Embed Frameworks */,
+				9FCC50DB306B97540064D30B /* feature_movie_details.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +217,8 @@
 		9F66A23A2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TmdbMVVM-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F66A2472FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TmdbMVVM-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F66A2512FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TmdbMVVM-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCC50C3306B974A0064D30B /* TmdbMVVM-SwiftUI Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TmdbMVVM-SwiftUI Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCC50DF306B97540064D30B /* TmdbMVVM-SwiftUI Verify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TmdbMVVM-SwiftUI Verify.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -191,6 +267,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCC50AB306B974A0064D30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCC50AC306B974A0064D30B /* feature_movie_review.framework in Frameworks */,
+				9FCC50AD306B974A0064D30B /* domain.framework in Frameworks */,
+				9FCC50AE306B974A0064D30B /* feature_movie_trailer.framework in Frameworks */,
+				9FCC50AF306B974A0064D30B /* feature_genre.framework in Frameworks */,
+				9FCC50B0306B974A0064D30B /* feature_movie_details.framework in Frameworks */,
+				9FCC50B1306B974A0064D30B /* feature_splash.framework in Frameworks */,
+				9FCC50B2306B974A0064D30B /* app_framework.framework in Frameworks */,
+				9FCC50B3306B974A0064D30B /* data.framework in Frameworks */,
+				9FCC50B4306B974A0064D30B /* feature_movie_by_genre.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCC50C7306B97540064D30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCC50C8306B97540064D30B /* feature_movie_review.framework in Frameworks */,
+				9FCC50C9306B97540064D30B /* domain.framework in Frameworks */,
+				9FCC50CA306B97540064D30B /* feature_movie_trailer.framework in Frameworks */,
+				9FCC50CB306B97540064D30B /* feature_genre.framework in Frameworks */,
+				9FCC50CC306B97540064D30B /* feature_movie_details.framework in Frameworks */,
+				9FCC50CD306B97540064D30B /* feature_splash.framework in Frameworks */,
+				9FCC50CE306B97540064D30B /* app_framework.framework in Frameworks */,
+				9FCC50CF306B97540064D30B /* data.framework in Frameworks */,
+				9FCC50D0306B97540064D30B /* feature_movie_by_genre.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +419,8 @@
 				9F66A23A2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI.app */,
 				9F66A2472FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUITests.xctest */,
 				9F66A2512FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUIUITests.xctest */,
+				9FCC50C3306B974A0064D30B /* TmdbMVVM-SwiftUI Staging.app */,
+				9FCC50DF306B97540064D30B /* TmdbMVVM-SwiftUI Verify.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -386,6 +496,52 @@
 			productName = TMDBSwiftUIAppUITests;
 			productReference = 9F66A2512FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9FCC50A9306B974A0064D30B /* TmdbMVVM-SwiftUI Staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FCC50C0306B974A0064D30B /* Build configuration list for PBXNativeTarget "TmdbMVVM-SwiftUI Staging" */;
+			buildPhases = (
+				9FCC50AA306B974A0064D30B /* Sources */,
+				9FCC50AB306B974A0064D30B /* Frameworks */,
+				9FCC50B5306B974A0064D30B /* Resources */,
+				9FCC50B6306B974A0064D30B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9F66A23C2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI */,
+			);
+			name = "TmdbMVVM-SwiftUI Staging";
+			packageProductDependencies = (
+			);
+			productName = TMDBSwiftUIApp;
+			productReference = 9FCC50C3306B974A0064D30B /* TmdbMVVM-SwiftUI Staging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FCC50C5306B97540064D30B /* TmdbMVVM-SwiftUI Verify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FCC50DC306B97540064D30B /* Build configuration list for PBXNativeTarget "TmdbMVVM-SwiftUI Verify" */;
+			buildPhases = (
+				9FCC50C6306B97540064D30B /* Sources */,
+				9FCC50C7306B97540064D30B /* Frameworks */,
+				9FCC50D1306B97540064D30B /* Resources */,
+				9FCC50D2306B97540064D30B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9F66A23C2FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI */,
+			);
+			name = "TmdbMVVM-SwiftUI Verify";
+			packageProductDependencies = (
+			);
+			productName = TMDBSwiftUIApp;
+			productReference = 9FCC50DF306B97540064D30B /* TmdbMVVM-SwiftUI Verify.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -467,6 +623,8 @@
 				9F66A2392FFCE6ED006F4ED7 /* TmdbMVVM-SwiftUI */,
 				9F66A2462FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUITests */,
 				9F66A2502FFCE6EF006F4ED7 /* TmdbMVVM-SwiftUIUITests */,
+				9FCC50A9306B974A0064D30B /* TmdbMVVM-SwiftUI Staging */,
+				9FCC50C5306B97540064D30B /* TmdbMVVM-SwiftUI Verify */,
 			);
 		};
 /* End PBXProject section */
@@ -559,6 +717,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FCC50B5306B974A0064D30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCC50D1306B97540064D30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -577,6 +749,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9F66A24D2FFCE6EF006F4ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCC50AA306B974A0064D30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FCC50C6306B97540064D30B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -737,7 +923,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dpfht.ios.TMDBSwiftUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpfht.ios.TMDBSwiftUIApp.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -840,6 +1026,114 @@
 			};
 			name = Release;
 		};
+		9FCC50C1306B974A0064D30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpfht.ios.TMDBSwiftUIApp.staging.debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FCC50C2306B974A0064D30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpfht.ios.TMDBSwiftUIApp.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FCC50DD306B97540064D30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpfht.ios.TMDBSwiftUIApp.verify.debug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FCC50DE306B97540064D30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dpfht.ios.TMDBSwiftUIApp.verify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -875,6 +1169,24 @@
 			buildConfigurations = (
 				9F66A2622FFCE6EF006F4ED7 /* Debug */,
 				9F66A2632FFCE6EF006F4ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FCC50C0306B974A0064D30B /* Build configuration list for PBXNativeTarget "TmdbMVVM-SwiftUI Staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FCC50C1306B974A0064D30B /* Debug */,
+				9FCC50C2306B974A0064D30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FCC50DC306B97540064D30B /* Build configuration list for PBXNativeTarget "TmdbMVVM-SwiftUI Verify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FCC50DD306B97540064D30B /* Debug */,
+				9FCC50DE306B97540064D30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

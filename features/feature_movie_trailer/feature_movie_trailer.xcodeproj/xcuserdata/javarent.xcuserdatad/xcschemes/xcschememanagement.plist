@@ -9,6 +9,21 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>feature_movie_trailerTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9F01A996306A600D00A18A16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

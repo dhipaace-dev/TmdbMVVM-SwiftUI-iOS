@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TmdbMVVM-SwiftUI Staging.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>TmdbMVVM-SwiftUI Verify.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>TmdbMVVM-SwiftUI.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>9F66A2502FFCE6EF006F4ED7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9FCC50A9306B974A0064D30B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
