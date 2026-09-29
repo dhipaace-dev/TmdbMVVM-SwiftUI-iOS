@@ -8,7 +8,8 @@
 import XCTest
 import Combine
 
-@testable import TmdbMVVM_SwiftUI
+@testable import domain
+@testable import feature_movie_trailer
 
 @MainActor
 final class MovieTrailerViewModelTests: XCTestCase {

@@ -9,10 +9,10 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
-		<key>feature_movie_trailerTests.xcscheme</key>
+		<key>feature_movie_trailerTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
