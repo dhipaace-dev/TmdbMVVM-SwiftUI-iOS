@@ -15,6 +15,46 @@
           "containerPath" : "container:TmdbMVVM-SwiftUI.xcodeproj",
           "identifier" : "9F66A2392FFCE6ED006F4ED7",
           "name" : "TmdbMVVM-SwiftUI"
+        },
+        {
+          "containerPath" : "container:app_framework\/app_framework.xcodeproj",
+          "identifier" : "9F01A840306A56C200A18A16",
+          "name" : "app_framework"
+        },
+        {
+          "containerPath" : "container:data\/data.xcodeproj",
+          "identifier" : "9F01A7E6306A553400A18A16",
+          "name" : "data"
+        },
+        {
+          "containerPath" : "container:domain\/domain.xcodeproj",
+          "identifier" : "9F01A786306A532400A18A16",
+          "name" : "domain"
+        },
+        {
+          "containerPath" : "container:features\/feature_genre\/feature_genre.xcodeproj",
+          "identifier" : "9F01A899306A599000A18A16",
+          "name" : "feature_genre"
+        },
+        {
+          "containerPath" : "container:features\/feature_movie_by_genre\/feature_movie_by_genre.xcodeproj",
+          "identifier" : "9F01A8D4306A5AD300A18A16",
+          "name" : "feature_movie_by_genre"
+        },
+        {
+          "containerPath" : "container:features\/feature_movie_details\/feature_movie_details.xcodeproj",
+          "identifier" : "9F01A912306A5CC400A18A16",
+          "name" : "feature_movie_details"
+        },
+        {
+          "containerPath" : "container:features\/feature_movie_review\/feature_movie_review.xcodeproj",
+          "identifier" : "9F01A950306A5EA900A18A16",
+          "name" : "feature_movie_review"
+        },
+        {
+          "containerPath" : "container:features\/feature_movie_trailer\/feature_movie_trailer.xcodeproj",
+          "identifier" : "9F01A98B306A600C00A18A16",
+          "name" : "feature_movie_trailer"
         }
       ]
     },
@@ -26,11 +66,10 @@
   },
   "testTargets" : [
     {
-      "parallelizable" : true,
       "target" : {
-        "containerPath" : "container:TmdbMVVM-SwiftUI.xcodeproj",
-        "identifier" : "9F66A2462FFCE6EF006F4ED7",
-        "name" : "TmdbMVVM-SwiftUITests"
+        "containerPath" : "container:features\/feature_movie_trailer\/feature_movie_trailer.xcodeproj",
+        "identifier" : "9F01A996306A600D00A18A16",
+        "name" : "feature_movie_trailerTests"
       }
     },
     {
@@ -39,6 +78,70 @@
         "containerPath" : "container:TmdbMVVM-SwiftUI.xcodeproj",
         "identifier" : "9F66A2502FFCE6EF006F4ED7",
         "name" : "TmdbMVVM-SwiftUIUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:features\/feature_movie_details\/feature_movie_details.xcodeproj",
+        "identifier" : "9F01A91D306A5CC400A18A16",
+        "name" : "feature_movie_detailsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:features\/feature_genre\/feature_genre.xcodeproj",
+        "identifier" : "9F01A8A4306A599000A18A16",
+        "name" : "feature_genreTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:features\/feature_movie_by_genre\/feature_movie_by_genre.xcodeproj",
+        "identifier" : "9F01A8DF306A5AD400A18A16",
+        "name" : "feature_movie_by_genreTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TmdbMVVM-SwiftUI.xcodeproj",
+        "identifier" : "9F66A2462FFCE6EF006F4ED7",
+        "name" : "TmdbMVVM-SwiftUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:features\/feature_movie_review\/feature_movie_review.xcodeproj",
+        "identifier" : "9F01A95B306A5EA900A18A16",
+        "name" : "feature_movie_reviewTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:data\/data.xcodeproj",
+        "identifier" : "9F01A7F1306A553500A18A16",
+        "name" : "dataTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:app_framework\/app_framework.xcodeproj",
+        "identifier" : "9F01A84B306A56C200A18A16",
+        "name" : "app_frameworkTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:domain\/domain.xcodeproj",
+        "identifier" : "9F01A791306A532400A18A16",
+        "name" : "domainTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:features\/feature_splash\/feature_splash.xcodeproj",
+        "identifier" : "9F01A9D1306A61EC00A18A16",
+        "name" : "feature_splashTests"
       }
     }
   ],
