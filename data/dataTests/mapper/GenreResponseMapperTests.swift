@@ -7,7 +7,7 @@
 
 import XCTest
 
-@testable import TmdbMVVM_SwiftUI
+@testable import data
 
 final class GenreResponseMapperTests: XCTestCase {
     
