@@ -8,7 +8,7 @@
 import XCTest
 import Combine
 
-@testable import TmdbMVVM_SwiftUI
+@testable import domain
 
 final class GetMovieByGenreUseCaseTests: XCTestCase {
     

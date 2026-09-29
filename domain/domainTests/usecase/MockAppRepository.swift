@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-@testable import TmdbMVVM_SwiftUI
+@testable import domain
 
 final class MockAppRepository: AppRepository {
     
