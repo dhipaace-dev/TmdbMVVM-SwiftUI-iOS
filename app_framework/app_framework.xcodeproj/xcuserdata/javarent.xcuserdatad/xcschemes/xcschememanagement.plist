@@ -9,10 +9,10 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>app_frameworkTests.xcscheme</key>
+		<key>app_frameworkTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>

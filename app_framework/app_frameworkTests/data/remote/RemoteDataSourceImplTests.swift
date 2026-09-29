@@ -8,7 +8,8 @@
 import XCTest
 import Combine
 
-@testable import TmdbMVVM_SwiftUI
+@testable import data
+@testable import app_framework
 
 final class RemoteDataSourceImplTests: XCTestCase {
     
